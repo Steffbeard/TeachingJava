@@ -1,0 +1,10 @@
+name: Example #This is the name of the plugin that shows up when you do /plugins or in console or in the folder when it makes a config
+main: com.yourname.totalwar.example.Main #this is the file path to the main.java class #see how its capitalized? because its a class file, packages are usually never capitilized
+author: YourName #optional
+authors: #if there are more than one
+version: 4.2.0 #this is important for organization so the server AND the server admin both know the version of the plugin so if u have multiple plugin.jar files you know wwhich one is the newest one
+
+commands: #first we need to define the commands
+   ping: #name of the command, as defined in Main.java
+      description: Returns pong when you run this #Description of the command, shows up in /help
+      usage: /ping #How to use the command
